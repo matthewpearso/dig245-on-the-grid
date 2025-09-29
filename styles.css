@@ -1,0 +1,39 @@
+
+.index{
+    background-color: #141414;
+}
+.header{
+    font-family: "Bodoni MT", "Century Schoolbook", serif;
+    font-size: 50px;
+}
+
+.subheader{
+    font-family: "Bodoni MT", "Century Schoolbook", serif;
+    font-weight: bold;
+    font-size: 27px;
+}
+
+.body-text{
+    font-family: "Helvetica", sans-serif;
+    font-size: medium; 
+}
+
+.topic-list{
+    font-family: "Helvetica", sans-serif;
+    font-size: medium;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-bottom: 10px;
+    flex: 1 1 0;      
+    min-width: 0;     
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+
